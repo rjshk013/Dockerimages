@@ -1,0 +1,3 @@
+Run Jenkins container:
+
+docker run -d --name jenkins_docker -v var/run/docker.sock:/var/run/docker.sock -v data/jenkins/jenkins_home:/var/jenkins_home -p 8084:8080 -p 50000:50000 jenkinsci/jenkins:lts
