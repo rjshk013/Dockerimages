@@ -1,3 +1,4 @@
+#Dockerfile to build tomcat container
 FROM centos
 
 MAINTAINER rjshk013@gmail.com
